@@ -7,5 +7,10 @@ function increment()
 {
     count = count + 1;
     countEl.innerText = count;    
-    console.log("The button was clicked" + count);
+    console.log("The button was clicked" + count + " times.");
+}
+
+function save()
+{
+    console.log(count);
 }

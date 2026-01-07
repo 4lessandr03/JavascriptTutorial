@@ -8,7 +8,7 @@ button{
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -17,4 +17,8 @@ button{
 
 #increment-btn{
     background: darkred;
+}
+
+#save-btn{
+    background: green;
 }
